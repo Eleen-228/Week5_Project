@@ -1,0 +1,90 @@
+.checkout_history {
+	width: 85%;
+}
+.title {
+	font-size: 1.8rem;
+}
+.my_profile {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 2rem;
+}
+.prof_info {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin: 0 4rem 0 1rem;
+}
+.prof_info h3,
+.recent_returns h3,
+.favorites {
+	font-size: 1.8rem;
+	padding: 1rem 0 2rem 2rem;
+}
+.update_image {
+	text-align: center;
+	text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+}
+.profile_details {
+	margin-top: 5rem;
+}
+.profile_details div {
+	font-size: 1.5rem;
+	margin-top: 1.2rem;
+}
+.profile_details .address {
+	height: 5rem;
+}
+.profile_details span {
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+	text-align: right;
+	vertical-align: top;
+}
+.profile_details p {
+	float: right;
+	margin-right: 5rem;
+	height: 100%;
+	width: 15rem;
+}
+.profile_details .address_details {
+	width: 15rem;
+}
+.phone {
+	clear: both;
+}
+.profile_details .pref_genres {
+	font-size: 1rem;
+	margin: 2rem 0 0 9rem;
+	text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+}
+.fa-sort-down {
+	font-size: 1rem;
+	padding-left: 0.5rem;
+	text-shadow: none;
+}
+/* return section css */
+.recent_returns {
+	margin-top: 5rem;
+}
+
+/* favorites section css */
+.favorites_listings {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding-left: 2rem;
+}
+.favorites_listings .btn {
+	background-color: green;
+	border: 0;
+	height: 1.2rem;
+	padding: 0 1rem;
+	border-radius: 0.6rem;
+	box-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+	margin: 1rem 2rem 3rem 2.5rem;
+	cursor: pointer;
+}
+.favorites_listings img {
+	display: block;
+}

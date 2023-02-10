@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./common.css" />
+		<script async src="https://kit.fontawesome.com/7478d80229.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./book_listings.css" />
+		<title>Library Book Listings Page</title>
+	</head>
+	<body>
+		<header>
+			<div class="liner">
+				<div class="left_side">
+					<a href="index.html"><img src="./images/library_logo.png" alt="library_logo" class="logo" /></a>
+				</div>
+				<div class="right_side">
+					<ul class="horizontal_nav">
+						<li><a href="">Location</a></li>
+						<li><a href="">Events</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="review.html">Sign-in</a></li>
+					</ul>
+					<span class="search_icon">
+						<i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+					</span>
+				</div>
+			</div>
+		</header>
+		<div class="search_catalog">
+			<span class="catalog">Search Catalog</span> <input type="text" placeholder="Title" />
+			<input type="text" placeholder="ISBN" />
+			<select name="format" id="format">
+				<option value="Format">Format</option>
+			</select>
+			<select name="Genre" id="Genre">
+				<option value="Genre">Genre</option>
+			</select>
+		</div>
+		<main>
+			<div class="vertical_nav">
+				<ul>
+					<li><a href="">Ask us</a></li>
+					<li><a href="">Reading Challenge</a></li>
+					<li><a href="">Catalog</a></li>
+					<li><a href="">Bookcamp</a></li>
+					<li><a href="book_listings.html">E-book</a></li>
+					<li><a href="">STEM</a></li>
+					<li><a href="">Online Resources</a></li>
+					<li><a href="">Volunteer</a></li>
+				</ul>
+			</div>
+			<div class="listings">
+				<div class="message">
+					<p>There are 6 readers in line for this tile, check out these similar titles that are currently available.</p>
+				</div>
+				<div class="listing_details">
+					<div class="availability">
+						<img src="./images/friends_strangers_listings.png" alt="friends_and_strangers" />
+						<button class="avail_btn" disabled>Not Available</button>
+						<button class="hold_btn">Place Hold</button>
+					</div>
+					<div class="checkout">
+						<div class="books">
+							<div class="book">
+								<img src="./images/vanishing_half.png" alt="vanishing_half" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+							<div class="book">
+								<img src="./images/detransition_baby.png" alt="detransition_baby" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+							<div class="book">
+								<img src="./images/somebodys_daughter_listing.png" alt="somebodys_daughter" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+							<div class="book">
+								<img src="./images/you_exist_listing.png" alt="you_exist_too_much" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+							<div class="book">
+								<img src="./images/a_map_is_only_one_story.png" alt="a_map_is_only_one_story" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+							<div class="book">
+								<img src="./images/bangkok.png" alt="bangkok" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+							<div class="book">
+								<img src="./images/trust_exercise.png" alt="trust_exercise" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+							<div class="book">
+								<img src="./images/such_a_fun_age.png" alt="such_a_fun_age" />
+								<button class="checkout_btn">Check Out</button>
+							</div>
+						</div>
+						<ul class="pages">
+							<li><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">4</a></li>
+							<li><a href="">5</a></li>
+							<li><a href="">6</a></li>
+							<li><a href="">7</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

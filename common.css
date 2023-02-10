@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ul li {
+	list-style: none;
+}
+ul a {
+	color: black;
+	text-decoration: none;
+}
+/* Header css */
+header {
+	height: 7.5rem;
+	padding-top: 2.5rem;
+}
+
+.liner {
+	height: 50%;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 2.5rem;
+}
+.left_side {
+	position: absolute;
+	left: 2rem;
+	top: 1rem;
+	width: 7.5rem;
+	height: 7.5rem;
+	overflow: hidden;
+}
+.left_side .logo {
+	width: 100%;
+}
+.right_side {
+	float: right;
+	width: 33%;
+}
+.right_side span {
+	font-size: 1.5rem;
+}
+.horizontal_nav li {
+	width: 20%;
+	float: left;
+	font-size: 1.5rem;
+}
+
+/* search catalog css */
+.search_catalog {
+	text-align: right;
+	margin-right: 5.5rem;
+}
+.search_catalog span {
+	font-weight: 700;
+}
+.search_catalog input {
+	font-size: 1rem;
+	background-color: #ccc;
+	border-radius: 0.3rem;
+	border: 0;
+	padding: 0.2rem 0.5rem;
+	width: 10rem;
+	margin-right: 1rem;
+	box-shadow: inset 0 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+.search_catalog input:focus {
+	outline-style: none;
+}
+select {
+	width: 6.2rem;
+	font-size: 1rem;
+	background-color: #ccc;
+	border-radius: 0.3rem;
+	border: 0;
+	padding: 0.2rem 0.5rem;
+	margin-right: 1rem;
+}
+/* main css */
+main {
+	display: flex;
+	margin-top: 2rem;
+}
+/* vertical navigator css */
+.vertical_nav {
+	width: 15%;
+	padding-left: 2.7rem;
+	font-size: 1.2rem;
+}
+.vertical_nav li {
+	padding: 0.6rem;
+}

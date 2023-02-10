@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./common.css" />
+		<link rel="stylesheet" href="./profile.css" />
+		<script async src="https://kit.fontawesome.com/7478d80229.js" crossorigin="anonymous"></script>
+		<title>My Profile</title>
+	</head>
+	<body>
+		<header>
+			<div class="liner">
+				<div class="left_side">
+					<a href="index.html"><img src="./images/library_logo.png" alt="library_logo" class="logo" /></a>
+				</div>
+				<div class="right_side">
+					<ul class="horizontal_nav">
+						<li><a href="">Location</a></li>
+						<li><a href="">Events</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="review.html">Sign-in</a></li>
+					</ul>
+					<span class="search_icon">
+						<i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+					</span>
+				</div>
+			</div>
+		</header>
+
+		<div class="search_catalog">
+			<span class="catalog">Search Catalog</span> <input type="text" placeholder="Title" />
+			<input type="text" placeholder="ISBN" />
+			<select name="format" id="format">
+				<option value="Format">Format</option>
+			</select>
+			<select name="Genre" id="Genre">
+				<option value="Genre">Genre</option>
+			</select>
+		</div>
+
+		<main>
+			<div class="vertical_nav">
+				<ul>
+					<li><a href="">Ask us</a></li>
+					<li><a href="">Reading Challenge</a></li>
+					<li><a href="">Catalog</a></li>
+					<li><a href="">Bookcamp</a></li>
+					<li><a href="book_listings.html">E-book</a></li>
+					<li><a href="">STEM</a></li>
+					<li><a href="">Online Resources</a></li>
+					<li><a href="">Volunteer</a></li>
+				</ul>
+			</div>
+			<div class="checkout_history">
+				<h2 class="title">Check Out History</h2>
+				<div class="my_profile">
+					<div class="profile_left">
+						<div class="prof_info">
+							<div class="image_section">
+								<h3>My Profile</h3>
+								<img src="./images/profile_image.png" alt="profile_image" />
+								<div class="update_image"><a href="">Update Image</a></div>
+							</div>
+							<div class="profile_details">
+								<div class="name">
+									<span>Name: </span>
+									<p>Amber Mitchell<i class="fa-sharp fa-solid fa-pen"></i></p>
+								</div>
+								<div class="address">
+									<span>Address:</span>
+									<p class="address_details">5265 Standford Ave Atlanta Georgia, 30094<i class="fa-sharp fa-solid fa-pen"></i></p>
+								</div>
+								<div class="phone">
+									<span>Phone: </span>
+									<p>1-253-533-6546</p>
+								</div>
+								<div class="pref_genres">
+									<a href="">Preferred Genres <i class="fa-sharp fa-solid fa-sort-down"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="recent_returns">
+							<h3>Recent Returns</h3>
+							<img src="./images/recent_returns.png" alt="returns" />
+						</div>
+					</div>
+					<div class="profile_right">
+						<h3 class="favorites">Favorites</h3>
+						<div class="favorites_listings">
+							<div class="book1">
+								<img src="./images/this_close_to_okay.png" alt="book1_image" />
+								<button class="btn">Check Out</button>
+							</div>
+							<div class="book2">
+								<img src="./images/friends_and_strangers.png" alt="book2_image" />
+								<button class="btn">Check Out</button>
+							</div>
+							<div class="book3">
+								<img src="./images/somebodys_daughter.png" alt="book3_image" />
+								<button class="btn">Check Out</button>
+							</div>
+							<div class="book4">
+								<img src="./images/you_exist_too_much.png" alt="book4_image" />
+								<button class="btn">Check Out</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

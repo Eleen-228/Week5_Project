@@ -1,0 +1,19 @@
+.welcome_center {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding-top: 4rem;
+}
+.welcome_center {
+	width: 85%;
+}
+
+.welcome_center h2 {
+	width: 30%;
+	height: 17%;
+	line-height: 2rem;
+	font-weight: 300;
+}
+.welcome_center p {
+	width: 90%;
+}

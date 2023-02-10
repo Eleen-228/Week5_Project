@@ -1,0 +1,19 @@
+.about_center {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding-top: 4rem;
+}
+.about_center {
+	width: 85%;
+}
+
+.about_center h2 {
+	width: 30%;
+	height: 17%;
+	line-height: 2rem;
+	font-weight: 300;
+}
+.about_center p {
+	width: 90%;
+}
