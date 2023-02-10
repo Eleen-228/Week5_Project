@@ -64,7 +64,7 @@
 	cursor: pointer;
 }
 .pages {
-	margin-left: 60rem;
+	margin-left: 80%;
 }
 .pages li {
 	float: left;
@@ -75,7 +75,7 @@
 .pages li:hover {
 	border-bottom: 0.3rem solid black;
 }
-@media screen and (max-width: 1621px) {
+@media screen and (max-width: 1404px) {
 	.listing_details {
 		grid-template-columns: 1fr;
 	}
