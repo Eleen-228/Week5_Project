@@ -25,14 +25,13 @@
 	width: 60%;
 }
 .basic {
-	width: 70%;
 	font-size: 1.3rem;
 	margin-bottom: 3rem;
 }
 .basic div {
 	margin: 1rem 0;
 }
-.basic div > span {
+.basic div > span:first-child {
 	display: inline-block;
 	width: 5rem;
 	margin-right: 5rem;
@@ -53,4 +52,25 @@
 	color: blue;
 	font-size: 1.2rem;
 	font-weight: 600;
+}
+@media screen and (max-width: 1333px) {
+	.basic div span:last-child {
+		display: block;
+	}
+}
+@media screen and (max-width: 1140px) {
+	.vertical_nav,
+	.search_catalog {
+		display: none;
+	}
+	main {
+		justify-content: center;
+		align-items: center;
+	}
+	.description {
+		grid-template-columns: 1fr;
+	}
+	.book_details {
+		margin-top: 2rem;
+	}
 }

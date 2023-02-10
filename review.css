@@ -68,3 +68,38 @@ form input:focus {
 .sign_in {
 	text-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
 }
+@media screen and (max-width: 1047px) {
+	.reg_form {
+		grid-template-columns: 1fr;
+		gap: 6rem;
+	}
+}
+@media screen and (max-width: 1045px) {
+	header {
+		min-width: 1045px;
+	}
+	.vertical_nav,
+	.search_catalog {
+		display: none;
+	}
+	main {
+		justify-content: center;
+		align-items: center;
+		min-width: 1045px;
+	}
+	main h2 {
+		font-size: 1em;
+	}
+	.registration_center {
+		text-align: center;
+	}
+	.upload_img {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 661px) {
+	main h2 {
+		text-align: center;
+		line-height: 3rem;
+	}
+}

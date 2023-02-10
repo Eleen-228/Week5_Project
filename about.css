@@ -17,3 +17,21 @@
 .about_center p {
 	width: 90%;
 }
+@media screen and (max-width: 1182px) {
+	.about_center {
+		grid-template-columns: 1fr;
+	}
+	.about_image {
+		margin: 1.5rem 0;
+	}
+}
+@media screen and (max-width: 932px) {
+	.vertical_nav,
+	.search_catalog {
+		display: none;
+	}
+	main {
+		justify-content: center;
+		align-items: center;
+	}
+}

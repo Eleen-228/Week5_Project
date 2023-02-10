@@ -42,12 +42,16 @@ header {
 .right_side span {
 	font-size: 1.5rem;
 }
+
 .horizontal_nav li {
 	width: 20%;
 	float: left;
 	font-size: 1.5rem;
 }
-
+/* hide icon on the horizontal navigator */
+.horizontal_nav li a:last-child {
+	display: none;
+}
 /* search catalog css */
 .search_catalog {
 	text-align: right;
@@ -91,4 +95,25 @@ main {
 }
 .vertical_nav li {
 	padding: 0.6rem;
+}
+@media screen and (max-width: 1420px) {
+	.horizontal_nav li a:first-child {
+		display: none;
+	}
+	.horizontal_nav li a:last-child {
+		display: block;
+	}
+	.horizontal_nav .fa-sharp {
+		line-height: 1.5;
+	}
+	header {
+		min-width: 932px;
+	}
+}
+@media screen and (max-width: 932px) {
+	.right_side {
+		float: none;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
 }
